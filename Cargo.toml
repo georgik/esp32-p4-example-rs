@@ -1,5 +1,5 @@
 [package]
-name = "pr"
+name = "p4"
 version = "0.1.0"
 authors = ["Juraj Michálek <juraj.michalek@espressif.com>"]
 edition = "2021"
