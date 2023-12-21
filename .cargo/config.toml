@@ -1,6 +1,6 @@
 [target.riscv32imafc-unknown-none-elf]
-runner = "espflash flash --no-stub -b 460800 --monitor --bootloader bootloader.bin"
-#runner = "espflash flash --no-stub -b 460800 --monitor"
+#runner = "espflash flash --no-stub -b 460800 --monitor --bootloader bootloader.bin"
+runner = "espflash flash --no-stub -b 460800 --monitor"
 
 
 [build]
