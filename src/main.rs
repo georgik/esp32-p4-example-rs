@@ -20,7 +20,7 @@ use riscv_rt::entry;
 // `main` is not allowed to return
 #[entry]
 fn main() -> ! {
-    println!("Hello world!");
+    println!("Hello world! PF 2024 :-)");
 
     loop {}
 }
