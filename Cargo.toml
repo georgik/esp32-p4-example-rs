@@ -6,5 +6,5 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-#hal = { package = "esp32p4-hal", version = "0.6.0" }
-esp-println = { git = "https://github.com/jessebraham/esp-println.git", rev = "61a66f8", features = ["esp32p4"] }
+esp-println = { git = "https://github.com/jessebraham/esp-println.git", rev = "61a66f8", default-features = false, features = ["esp32p4", "uart"] }
+riscv-rt = "0.11.0"
