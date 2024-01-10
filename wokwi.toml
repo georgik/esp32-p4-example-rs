@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-elf = "target/riscv32imafc-unknown-none-elf/release/p4"
-firmware = "target/riscv32imafc-unknown-none-elf/release/p4"
+elf = "p4.img"
+firmware = "p4.img"
