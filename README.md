@@ -12,5 +12,5 @@ cargo run --release
 
 ```
 cargo install cargo-espflash --git https://github.com/esp-rs/espflash.git --force
-cargo espflash save-image --chip esp32p4 --release --merge --skip-padding p4.img
+cargo espflash save-image --chip esp32p4 --release --merge p4.img
 ```
